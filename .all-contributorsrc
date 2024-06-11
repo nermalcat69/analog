@@ -943,6 +943,80 @@
         "doc",
         "translation"
       ]
+    },
+    {
+      "login": "yjaaidi",
+      "name": "Younes Jaaidi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2674658?v=4",
+      "profile": "https://marmicode.io",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    },
+    {
+      "login": "BoogieMonsta",
+      "name": "BoogMon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73052877?v=4",
+      "profile": "https://boogiemonsta.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "AmGarera",
+      "name": "Anthony Garera",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6021169?v=4",
+      "profile": "https://www.anthonygarera.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "stewones",
+      "name": "Stewan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/719763?v=4",
+      "profile": "http://stewan.io",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    },
+    {
+      "login": "NateRadebaugh",
+      "name": "Nate Radebaugh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130445?v=4",
+      "profile": "https://naterad.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "WolfSoko",
+      "name": "Wolfram Sokollek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8589105?v=4",
+      "profile": "https://angularexamples.wolsok.de/",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "muhammaduxair",
+      "name": "Muhammad Uzair",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64395440?v=4",
+      "profile": "https://github.com/muhammaduxair",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Laphatize",
+      "name": "Pranav Ramesh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23617187?v=4",
+      "profile": "https://pranavramesh.dev",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -1,3 +1,204 @@
+# [1.5.0-beta.10](https://github.com/analogjs/analog/compare/v1.5.0-beta.9...v1.5.0-beta.10) (2024-06-04)
+
+### Bug Fixes
+
+- **nx-plugin:** update rxjs dependency ([#1142](https://github.com/analogjs/analog/issues/1142)) ([c697365](https://github.com/analogjs/analog/commit/c69736576a6884d16bcf4aec409d3d4c35ec2fd7))
+
+# [1.5.0-beta.9](https://github.com/analogjs/analog/compare/v1.5.0-beta.8...v1.5.0-beta.9) (2024-06-03)
+
+### Features
+
+- **vite-plugin-nitro:** handle web Response object in dev server plugin ([#1141](https://github.com/analogjs/analog/issues/1141)) ([a8b0f32](https://github.com/analogjs/analog/commit/a8b0f3218c4c0d4d302b8144f6bea33446c65d24))
+
+# [1.5.0-beta.8](https://github.com/analogjs/analog/compare/v1.5.0-beta.7...v1.5.0-beta.8) (2024-05-30)
+
+### Features
+
+- **router:** add support for @angular/fire guards ([#1131](https://github.com/analogjs/analog/issues/1131)) ([84646d8](https://github.com/analogjs/analog/commit/84646d8491e3e6d4e205e7af4a81b97be552d5e8))
+
+# [1.5.0-beta.7](https://github.com/analogjs/analog/compare/v1.5.0-beta.6...v1.5.0-beta.7) (2024-05-30)
+
+### Bug Fixes
+
+- **create-analog:** add dependencies based on template and package manager ([#1128](https://github.com/analogjs/analog/issues/1128)) ([0381aa4](https://github.com/analogjs/analog/commit/0381aa4158957afe2aa49ef246d7021b10931fb3))
+
+# [1.5.0-beta.6](https://github.com/analogjs/analog/compare/v1.5.0-beta.5...v1.5.0-beta.6) (2024-05-29)
+
+### Bug Fixes
+
+- **create-analog:** modify app config after the file is added ([#1126](https://github.com/analogjs/analog/issues/1126)) ([d91f01e](https://github.com/analogjs/analog/commit/d91f01efed061555759302661751aa8b58c99fe6))
+
+# [1.5.0-beta.5](https://github.com/analogjs/analog/compare/v1.5.0-beta.4...v1.5.0-beta.5) (2024-05-29)
+
+### Features
+
+- **create-analog:** add syntax highlighter option for blog template ([#1125](https://github.com/analogjs/analog/issues/1125)) ([4cb0bc2](https://github.com/analogjs/analog/commit/4cb0bc20af5550df344ebb6f39113fcede295ce1))
+
+# [1.5.0-beta.4](https://github.com/analogjs/analog/compare/v1.5.0-beta.3...v1.5.0-beta.4) (2024-05-29)
+
+### Bug Fixes
+
+- **content:** adjust peer dependencies meta for different highlighters ([#1124](https://github.com/analogjs/analog/issues/1124)) ([5708d7d](https://github.com/analogjs/analog/commit/5708d7d0e91151b45bf8277dd471688468cf77f5))
+
+# [1.5.0-beta.3](https://github.com/analogjs/analog/compare/v1.5.0-beta.2...v1.5.0-beta.3) (2024-05-29)
+
+### Bug Fixes
+
+- **content:** delete npmignore from ng-packagr after build ([616eedd](https://github.com/analogjs/analog/commit/616eedd046ea371abdfbc2e47ce7924c3527c096))
+
+# [1.5.0-beta.2](https://github.com/analogjs/analog/compare/v1.5.0-beta.1...v1.5.0-beta.2) (2024-05-29)
+
+### Bug Fixes
+
+- **content:** adjust project config ([#1122](https://github.com/analogjs/analog/issues/1122)) ([2570d65](https://github.com/analogjs/analog/commit/2570d654db3a1326780a555a82258c5b6635ca9f))
+
+# [1.5.0-beta.1](https://github.com/analogjs/analog/compare/v1.4.0...v1.5.0-beta.1) (2024-05-28)
+
+### Features
+
+- **content:** custom syntax highlighter and add shiki as one ([#1121](https://github.com/analogjs/analog/issues/1121)) ([f22d899](https://github.com/analogjs/analog/commit/f22d8994d26c59e7f0e9d8d092d9f752bf11d6a5))
+
+# [1.4.0](https://github.com/analogjs/analog/compare/v1.3.1...v1.4.0) (2024-05-27)
+
+### Bug Fixes
+
+- adjust peer dependency ranges ([1bc4e59](https://github.com/analogjs/analog/commit/1bc4e59e3cc850a4cf6bf8956ebd38ff70265e4b))
+- **content:** getContentFile stream should be finished ([#1110](https://github.com/analogjs/analog/issues/1110)) ([e0ce74f](https://github.com/analogjs/analog/commit/e0ce74fd0513122ba416ac4be74bd4e55d3d572d))
+- **create-analog:** add fixes for v18 template ([#1095](https://github.com/analogjs/analog/issues/1095)) ([759a341](https://github.com/analogjs/analog/commit/759a341d84e3d0c2cf4b9f4c6d27e6a4ea91445b))
+- **nx-plugin:** update typescript dependency ([#1109](https://github.com/analogjs/analog/issues/1109)) ([4b9a51e](https://github.com/analogjs/analog/commit/4b9a51e8eaf450e5c91020bb93b37c104a54bf68))
+- **platform:** add Nx deps as peerDependencies ([#1117](https://github.com/analogjs/analog/issues/1117)) ([b255370](https://github.com/analogjs/analog/commit/b255370182e8ff8bc1792113c8583a824c42ad8b))
+- **vite-plugin-angular:** add @analogjs/router to vitest inline deps ([#1098](https://github.com/analogjs/analog/issues/1098)) ([69f4efa](https://github.com/analogjs/analog/commit/69f4efa0f6785d51518d1c087c515f9220a69ca6))
+- **vitest-angular:** rename testing setup file and add to build ([#1106](https://github.com/analogjs/analog/issues/1106)) ([9ef4f3b](https://github.com/analogjs/analog/commit/9ef4f3b5bb224b600e6ddc8cc7ef689f676cff12))
+- **vitest-angular:** update peerDependencies for @angular-devkit/architect version pattern range ([#1113](https://github.com/analogjs/analog/issues/1113)) ([1765d48](https://github.com/analogjs/analog/commit/1765d481bceb7815665bd4461109607d52551100))
+
+### Features
+
+- **create-analog:** simplify prompts add template for upcoming Angular v18 release ([#1094](https://github.com/analogjs/analog/issues/1094)) ([29c42a1](https://github.com/analogjs/analog/commit/29c42a133a0602667b3282620ef7ad1365262476))
+- introduce vitest-angular package ([#1105](https://github.com/analogjs/analog/issues/1105)) ([4d73542](https://github.com/analogjs/analog/commit/4d735423a7cffb523fca2d5866c08cb4d1594bdb))
+- update deps and apps to Angular v18 release ([#1101](https://github.com/analogjs/analog/issues/1101)) ([ef9bbee](https://github.com/analogjs/analog/commit/ef9bbeee6aeb73edcb66d94569fffd5443273ca5))
+
+# [1.4.0-beta.11](https://github.com/analogjs/analog/compare/v1.4.0-beta.10...v1.4.0-beta.11) (2024-05-27)
+
+### Bug Fixes
+
+- **platform:** add Nx deps as peerDependencies ([#1117](https://github.com/analogjs/analog/issues/1117)) ([b255370](https://github.com/analogjs/analog/commit/b255370182e8ff8bc1792113c8583a824c42ad8b))
+
+# [1.4.0-beta.10](https://github.com/analogjs/analog/compare/v1.4.0-beta.9...v1.4.0-beta.10) (2024-05-27)
+
+### Bug Fixes
+
+- **vitest-angular:** update peerDependencies for @angular-devkit/architect version pattern range ([#1113](https://github.com/analogjs/analog/issues/1113)) ([1765d48](https://github.com/analogjs/analog/commit/1765d481bceb7815665bd4461109607d52551100))
+
+# [1.4.0-beta.9](https://github.com/analogjs/analog/compare/v1.4.0-beta.8...v1.4.0-beta.9) (2024-05-26)
+
+### Bug Fixes
+
+- **content:** getContentFile stream should be finished ([#1110](https://github.com/analogjs/analog/issues/1110)) ([e0ce74f](https://github.com/analogjs/analog/commit/e0ce74fd0513122ba416ac4be74bd4e55d3d572d))
+
+# [1.4.0-beta.8](https://github.com/analogjs/analog/compare/v1.4.0-beta.7...v1.4.0-beta.8) (2024-05-26)
+
+### Bug Fixes
+
+- **nx-plugin:** update typescript dependency ([#1109](https://github.com/analogjs/analog/issues/1109)) ([4b9a51e](https://github.com/analogjs/analog/commit/4b9a51e8eaf450e5c91020bb93b37c104a54bf68))
+
+# [1.4.0-beta.7](https://github.com/analogjs/analog/compare/v1.4.0-beta.6...v1.4.0-beta.7) (2024-05-24)
+
+### Bug Fixes
+
+- **vitest-angular:** rename testing setup file and add to build ([#1106](https://github.com/analogjs/analog/issues/1106)) ([9ef4f3b](https://github.com/analogjs/analog/commit/9ef4f3b5bb224b600e6ddc8cc7ef689f676cff12))
+
+# [1.4.0-beta.6](https://github.com/analogjs/analog/compare/v1.4.0-beta.5...v1.4.0-beta.6) (2024-05-24)
+
+### Features
+
+- introduce vitest-angular package ([#1105](https://github.com/analogjs/analog/issues/1105)) ([4d73542](https://github.com/analogjs/analog/commit/4d735423a7cffb523fca2d5866c08cb4d1594bdb))
+
+# [1.4.0-beta.5](https://github.com/analogjs/analog/compare/v1.4.0-beta.4...v1.4.0-beta.5) (2024-05-23)
+
+### Bug Fixes
+
+- adjust peer dependency ranges ([1bc4e59](https://github.com/analogjs/analog/commit/1bc4e59e3cc850a4cf6bf8956ebd38ff70265e4b))
+
+# [1.4.0-beta.4](https://github.com/analogjs/analog/compare/v1.4.0-beta.3...v1.4.0-beta.4) (2024-05-23)
+
+### Features
+
+- update deps and apps to Angular v18 release ([#1101](https://github.com/analogjs/analog/issues/1101)) ([ef9bbee](https://github.com/analogjs/analog/commit/ef9bbeee6aeb73edcb66d94569fffd5443273ca5))
+
+# [1.4.0-beta.3](https://github.com/analogjs/analog/compare/v1.4.0-beta.2...v1.4.0-beta.3) (2024-05-21)
+
+### Bug Fixes
+
+- **vite-plugin-angular:** add @analogjs/router to vitest inline deps ([#1098](https://github.com/analogjs/analog/issues/1098)) ([69f4efa](https://github.com/analogjs/analog/commit/69f4efa0f6785d51518d1c087c515f9220a69ca6))
+
+# [1.4.0-beta.2](https://github.com/analogjs/analog/compare/v1.4.0-beta.1...v1.4.0-beta.2) (2024-05-17)
+
+### Bug Fixes
+
+- **create-analog:** add fixes for v18 template ([#1095](https://github.com/analogjs/analog/issues/1095)) ([759a341](https://github.com/analogjs/analog/commit/759a341d84e3d0c2cf4b9f4c6d27e6a4ea91445b))
+
+# [1.4.0-beta.1](https://github.com/analogjs/analog/compare/v1.3.1...v1.4.0-beta.1) (2024-05-17)
+
+### Features
+
+- **create-analog:** simplify prompts add template for upcoming Angular v18 release ([#1094](https://github.com/analogjs/analog/issues/1094)) ([29c42a1](https://github.com/analogjs/analog/commit/29c42a133a0602667b3282620ef7ad1365262476))
+
+## [1.3.1](https://github.com/analogjs/analog/compare/v1.3.1-beta.9...v1.3.1) (2024-05-14)
+
+## [1.3.1-beta.9](https://github.com/analogjs/analog/compare/v1.3.1-beta.8...v1.3.1-beta.9) (2024-05-14)
+
+### Bug Fixes
+
+- adjust peer deps to support Nx 19 and Angular v18.0.0 RCs ([1f75ac3](https://github.com/analogjs/analog/commit/1f75ac3ad181306ea3a89619d0dbbf7367a55523))
+
+## [1.3.1-beta.8](https://github.com/analogjs/analog/compare/v1.3.1-beta.7...v1.3.1-beta.8) (2024-05-13)
+
+### Bug Fixes
+
+- **nx-plugin:** adjust templates/docs for adding Analog to existing Angular projects ([#1090](https://github.com/analogjs/analog/issues/1090)) ([474081a](https://github.com/analogjs/analog/commit/474081a9e1f0cfa3a94e44a87463e765e4a2efc1))
+
+## [1.3.1-beta.7](https://github.com/analogjs/analog/compare/v1.3.1-beta.6...v1.3.1-beta.7) (2024-05-13)
+
+### Bug Fixes
+
+- **vite-plugin-nitro:** correctly merge Nitro config customizations ([#1089](https://github.com/analogjs/analog/issues/1089)) ([a604ec6](https://github.com/analogjs/analog/commit/a604ec6d1e17dfc7e43928f1f3bc4d347d232f61))
+
+## [1.3.1-beta.6](https://github.com/analogjs/analog/compare/v1.3.1-beta.5...v1.3.1-beta.6) (2024-05-13)
+
+### Bug Fixes
+
+- **platform:** add support in @analogjs/platform for older Angular versions ([#1088](https://github.com/analogjs/analog/issues/1088)) ([f9dc0ff](https://github.com/analogjs/analog/commit/f9dc0ff6443844a16d48aeabc94abcb05747921c))
+
+## [1.3.1-beta.5](https://github.com/analogjs/analog/compare/v1.3.1-beta.4...v1.3.1-beta.5) (2024-05-07)
+
+### Bug Fixes
+
+- **vite-plugin-angular:** allow passing options to analogSFC esbuild plugin ([#1085](https://github.com/analogjs/analog/issues/1085)) ([5177d91](https://github.com/analogjs/analog/commit/5177d91be8188e81346c4a8215ef81485c43165a))
+
+## [1.3.1-beta.4](https://github.com/analogjs/analog/compare/v1.3.1-beta.3...v1.3.1-beta.4) (2024-05-03)
+
+### Bug Fixes
+
+- **vite-plugin-angular:** honour user's test.pool choice ([#1080](https://github.com/analogjs/analog/issues/1080)) ([b3d27eb](https://github.com/analogjs/analog/commit/b3d27ebe67909b3151fd657b25cf4c52396f7051))
+
+## [1.3.1-beta.3](https://github.com/analogjs/analog/compare/v1.3.1-beta.2...v1.3.1-beta.3) (2024-05-03)
+
+### Bug Fixes
+
+- **nx-plugin:** remove $schema from vitest executor ([#1079](https://github.com/analogjs/analog/issues/1079)) ([6122672](https://github.com/analogjs/analog/commit/6122672c826f9507a3f8a00a650686a526189339))
+
+## [1.3.1-beta.2](https://github.com/analogjs/analog/compare/v1.3.1-beta.1...v1.3.1-beta.2) (2024-05-03)
+
+### Bug Fixes
+
+- **vite-plugin-angular:** add detection of StackBlitz environment for testing ([#1078](https://github.com/analogjs/analog/issues/1078)) ([978ea6c](https://github.com/analogjs/analog/commit/978ea6c44e0f04bedfa586c41f32a07db1a966fb))
+
+## [1.3.1-beta.1](https://github.com/analogjs/analog/compare/v1.3.0...v1.3.1-beta.1) (2024-05-03)
+
+### Bug Fixes
+
+- **vite-plugin-angular:** use conditional imports across Angular Devkit versions ([#1077](https://github.com/analogjs/analog/issues/1077)) ([9df13e3](https://github.com/analogjs/analog/commit/9df13e3f1071ba9c1571b3edac73388bea80fabc))
+
 # [1.3.0](https://github.com/analogjs/analog/compare/v1.3.0-beta.5...v1.3.0) (2024-04-30)
 
 # [1.3.0-beta.5](https://github.com/analogjs/analog/compare/v1.3.0-beta.4...v1.3.0-beta.5) (2024-04-29)

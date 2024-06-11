@@ -5,15 +5,20 @@ export function angularVitestPlugin(): Plugin {
     name: '@analogjs/vitest-angular-esm-plugin',
     apply: 'serve',
     enforce: 'post',
-    config() {
+    config(userConfig) {
       return {
         ssr: {
           noExternal: [/cdk\/fesm2022/],
         },
         test: {
-          pool: 'vmThreads',
+          pool: userConfig.test?.pool ?? 'vmThreads',
+          server: {
+            deps: {
+              inline: ['@analogjs/router'],
+            },
+          },
         },
-      } as UserConfig;
+      };
     },
     async transform(_code, id) {
       if (/fesm2022/.test(id) && _code.includes('async (')) {

@@ -2,7 +2,7 @@
 
 <!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-99-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-107-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- prettier-ignore-end -->
 
@@ -18,7 +18,8 @@ Visit the docs at [https://analogjs.org](https://analogjs.org)
 
 ## Features
 
-- Supports Vite/Vitest/Playwright
+- Powered by Vite
+- Supports Vitest/Storybook
 - Server and deployment integrations powered by [Nitro](https://nitro.unjs.io)
 - File-based routing
 - Server-side data fetching
@@ -82,6 +83,10 @@ Follow the prompts to scaffold the project and start the development server.
 
 <a href="https://code.build" target="_blank">
   <img src="https://github.com/analogjs/analog/blob/main/apps/docs-app/static/img/logos/code.build-1x1.svg" width="100px" height="100px" alt="Code.Build" />
+</a>
+
+<a href="https://snyder.tech/" target="_blank">
+  <img src="https://media.licdn.com/dms/image/C4E0BAQG4hMvLznt6_Q/company-logo_200_200/0/1630618311041/snydertechnologies_logo?e=2147483647&v=beta&t=TFq6VKWAgb5oI0FmbvaeTPFzMJR9S94_LvnLnlRqfLI" width="100px" height="100px" alt="Snyder Tech" />
 </a>
 
 ## Contributing
@@ -229,6 +234,16 @@ Thanks goes to these wonderful people for contributing to Analog ([emoji key](ht
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://byeonggi.vercel.app/"><img src="https://avatars.githubusercontent.com/u/11059706?v=4?s=100" width="100px;" alt="ByeongGi"/><br /><sub><b>ByeongGi</b></sub></a><br /><a href="https://github.com/analogjs/analog/commits?author=ByeongGi" title="Documentation">📖</a> <a href="#translation-ByeongGi" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://marmicode.io"><img src="https://avatars.githubusercontent.com/u/2674658?v=4?s=100" width="100px;" alt="Younes Jaaidi"/><br /><sub><b>Younes Jaaidi</b></sub></a><br /><a href="https://github.com/analogjs/analog/commits?author=yjaaidi" title="Code">💻</a> <a href="https://github.com/analogjs/analog/commits?author=yjaaidi" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://boogiemonsta.com/"><img src="https://avatars.githubusercontent.com/u/73052877?v=4?s=100" width="100px;" alt="BoogMon"/><br /><sub><b>BoogMon</b></sub></a><br /><a href="https://github.com/analogjs/analog/commits?author=BoogieMonsta" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.anthonygarera.com"><img src="https://avatars.githubusercontent.com/u/6021169?v=4?s=100" width="100px;" alt="Anthony Garera"/><br /><sub><b>Anthony Garera</b></sub></a><br /><a href="https://github.com/analogjs/analog/commits?author=AmGarera" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://stewan.io"><img src="https://avatars.githubusercontent.com/u/719763?v=4?s=100" width="100px;" alt="Stewan"/><br /><sub><b>Stewan</b></sub></a><br /><a href="https://github.com/analogjs/analog/commits?author=stewones" title="Code">💻</a> <a href="https://github.com/analogjs/analog/commits?author=stewones" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://naterad.com"><img src="https://avatars.githubusercontent.com/u/130445?v=4?s=100" width="100px;" alt="Nate Radebaugh"/><br /><sub><b>Nate Radebaugh</b></sub></a><br /><a href="https://github.com/analogjs/analog/commits?author=NateRadebaugh" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://angularexamples.wolsok.de/"><img src="https://avatars.githubusercontent.com/u/8589105?v=4?s=100" width="100px;" alt="Wolfram Sokollek"/><br /><sub><b>Wolfram Sokollek</b></sub></a><br /><a href="#infra-WolfSoko" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/muhammaduxair"><img src="https://avatars.githubusercontent.com/u/64395440?v=4?s=100" width="100px;" alt="Muhammad Uzair"/><br /><sub><b>Muhammad Uzair</b></sub></a><br /><a href="https://github.com/analogjs/analog/commits?author=muhammaduxair" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://pranavramesh.dev"><img src="https://avatars.githubusercontent.com/u/23617187?v=4?s=100" width="100px;" alt="Pranav Ramesh"/><br /><sub><b>Pranav Ramesh</b></sub></a><br /><a href="https://github.com/analogjs/analog/commits?author=Laphatize" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

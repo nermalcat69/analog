@@ -3,6 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/vite-plugin-nitro/src",
   "projectType": "library",
+  "tags": [],
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
@@ -12,9 +13,21 @@
         "main": "packages/vite-plugin-nitro/src/index.ts",
         "tsConfig": "packages/vite-plugin-nitro/tsconfig.lib.json",
         "assets": [
-          "packages/vite-plugin-nitro/*.md",
-          "packages/vite-plugin-nitro/src/lib/runtime/*.*",
-          "packages/vite-plugin-nitro/migrations/migration.json"
+          {
+            "input": "packages/vite-plugin-nitro/",
+            "glob": "*.md",
+            "output": "/"
+          },
+          {
+            "input": "packages/vite-plugin-nitro/src/lib/runtime/",
+            "glob": "*.*",
+            "output": "/src/lib/runtime/"
+          },
+          {
+            "input": "packages/vite-plugin-nitro/migrations/",
+            "glob": "migration.json",
+            "output": "/migrations/"
+          }
         ],
         "updateBuildableProjectDepsInPackageJson": false
       }
@@ -38,6 +51,5 @@
         "reportsDirectory": "../../coverage/packages/vite-plugin-nitro"
       }
     }
-  },
-  "tags": []
+  }
 }
